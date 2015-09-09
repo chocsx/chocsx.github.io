@@ -1,0 +1,2 @@
+Sitemap: http://doubleweb.com.br/mateus/sitemap.xml
+User-agent: *
