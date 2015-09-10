@@ -1,6 +1,0 @@
-# BLOCK SITE REFERRERS
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} hongfanji\.com [NC]
- RewriteCond %{HTTP_REFERER} www\.Get\-Free\-Traffic\-Now\.com [NC,OR]
- RewriteCond %{HTTP_REFERER} www\.event\-tracking\.com [NC]
-RewriteRule .* - [F]
