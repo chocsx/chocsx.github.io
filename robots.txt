@@ -1,2 +1,3 @@
-Sitemap: http://doubleweb.com.br/mateus/sitemap.xml
+Sitemap: http://msobrinho.com/sitemap.xml
+
 User-agent: *
