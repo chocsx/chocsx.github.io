@@ -1,9 +1,9 @@
 # Site settings
-title: Mateus Sobrinho - WebMaster, Programador PHP Porto Alegre
+title: Mateus Sobrinho
 email: me@doubleweb.com.br
 url: http://msobrinho.com/
 description: "Eu me chamo Mateus Sobrinho sou Programdor, WebMaster com foco em SEO e Gamer nas horas vagas. Moro em Porto Alegre e Curso Ciência da Computação na PUCRS."
-skills: "WebMaster - Programador PHP - Analista SEO"
+skills: "WebMaster - Programador PHP - Analísta SEO"
 meta_author: Sobrinho Mateus
 
 # Google webmaster tools
@@ -31,9 +31,9 @@ color:
 
 # Footer settings
 footer:
+  location: Localização
   copyright: Mateus Sobrinho
-  location: Brazil
-  social: @chocsx
+  social: Social
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
