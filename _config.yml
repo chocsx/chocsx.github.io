@@ -10,7 +10,7 @@ meta_author: Sobrinho Mateus
 google_verify: zgZyh5_NpyncS215ltmERYZRKc1DY1xk6yiL_KHic0Y
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: B5B266DAFF82BDF7E5BD0525597E688E
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
