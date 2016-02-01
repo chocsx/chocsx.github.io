@@ -2,7 +2,7 @@
 title: Mateus Sobrinho
 email: me@doubleweb.com.br
 url: http://msobrinho.com/
-description: "Eu me chamo Mateus Sobrinho sou Programdor, WebMaster com foco em SEO e Gamer nas horas vagas. Moro em Porto Alegre e Curso Ciência da Computação na PUCRS."
+description: "Olá, eu sou o Mateus Sobrinho, WebMaster com foco em Otimização aos Buscadores (SEO), eterno estudante e músico nas horas vagas.Sou Gaúcho de Porto Alegre."
 skills: "WebMaster - Programador PHP - Analísta SEO"
 meta_author: Sobrinho Mateus
 
@@ -38,8 +38,6 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/chocsx
   - title: facebook
     url: http://facebook.com/chocsx
   - title: google-plus
@@ -52,9 +50,6 @@ social:
 # Postal address (add as many lines as necessary)
 address:
    - line: Porto Alegre, RS
-
-# Credits content
-credits: '<a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
