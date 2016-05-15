@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	</head>
 	<body>
 
@@ -108,21 +109,25 @@
 							<p>Que tal um café? Vamos conversar sobre como sua empresa deve se portar na web :)</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="//formspree.io/me@doubleweb.com.br">
 										<div class="field half first">
 											<label for="name">Nome</label>
 											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
 											<label for="email">E-mail</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="_replyto" id="email" />
+										</div>
+										<div>
+											<input type="hidden"  name="_subject" value="New submission!">
+											<input type="text" name="_gotcha" style="display:none" />
 										</div>
 										<div class="field">
 											<label for="message">Mensagem</label>
 											<textarea name="message" id="message" rows="5" style="resize: none;"></textarea>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Enviar Mensagem</a></li>
+											<li><button type="submit" class="button submit">Enviar Mensagem</a></li>
 										</ul>
 									</form>
 								</section>
