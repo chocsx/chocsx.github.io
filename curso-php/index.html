@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta charset="latin-1">
+<meta name="description" content="Aprenda PHP de graça com Mateus Araújo">
+<meta name="keywords" content="php, mysql, curso de php, aula de php, curso de php grátis, aula de php grátis">
+<meta name="author" content="Softblue">
+
+<!-- Facebook Open Graph tags -->
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="http://www.msobrinho.com.br">
+<meta property="og:title" content="Curso PHP com Certificado!">
+<meta property="og:site_name" content="Curso PHP com Certificado!">
+<meta property="og:description" content="O evento online e gratuito de PHP!">
+<meta property="og:image" content="">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="800">
+<!-- Facebook Open Graph tags -->
+
+<title>Java Academy</title>
+<style>
+
+ a:link 
+ {
+	text-decoration: none;
+}
+
+*, html
+{
+	margin: 0 auto;
+	padding: 0 auto; 
+}
+
+div#cabecalho
+{ 
+	float: left; 
+	width: 100%; 
+	height: 80px;
+	line-height: 75px;
+	background-color: #0B76B0;
+}
+
+div#rodape
+{ 
+	float: left; 
+	width: 100%; 
+	background-color: #aca5d1;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+}
+
+div#apresentacao
+{ 
+	float: left; 
+	width: 100%; 
+	background-color: #0B76B0;
+
+}
+
+div#promessa
+{ 
+	float: left; 
+	width: 100%;
+	height: 500px; 
+	line-height: 500px;
+	background-color: #ffffff;
+	background-image: url("./media/contato-bg.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+div#programacao
+{ 
+	float: left; 
+	width: 100%; 
+	background-color: #ffffff;
+	text-align: center;
+}
+
+div#certificado
+{ 
+	float: left; 
+	width: 100%; 
+	background-color: #ffffff;
+	text-align: center;
+}
+
+div#publicoalvo
+{ 
+	float: left; 
+	width: 100%; 
+	background-color: #0B76B0;
+	text-align: center;
+}
+
+div#player
+{
+	text-align: center;
+}
+
+div#ctaB
+{
+	width: 670px; 
+	height: 80px;
+	line-height: 80px;
+	background-color: #82b440; /* #aca5d1; */ 
+	text-align: center;
+	border-radius: 15px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 2px 2px 5px 2px;
+}
+
+div#ctaB:hover
+{
+	background-color: #82b440;
+}
+
+p#cta
+{
+	font-family: Impact;
+	color: #ffffff;
+	font-size: 30px;
+	text-shadow: 2px 2px #82b440;
+}
+
+div#inscricaoRodape
+{
+	background-color: #0B76B0;
+}
+
+iframe#youtube
+{
+	border: 5px solid #ffffff;
+}
+
+div#palestrante
+{
+	float: left; 
+	width: 100%; 
+	background-color: #FFFFFF;
+	height: auto;
+	text-align: center;
+}
+
+div#celulaConteudo
+{
+ margin: 30px; display:inline-block;
+}
+
+a#botaoInscricao
+{
+	text-align: center;
+}
+
+p#tituloCorEscura
+{
+	
+	font-family: Impact;
+	color: #0B76B0;
+	font-size: 40px;
+	text-align: center;
+}
+
+p#tituloBranco,
+p#tituloBrancoLongo
+{
+	font-family: Impact;
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+}
+
+p#nomeevento
+{
+	font-family: Impact;
+	color: #ffffff;
+	font-size: 110px;
+	text-align: center;
+}
+
+p#tituloCorClara,
+p#tituloCorClaraLongo
+{
+	font-family: Impact;
+	color: #FFF;
+	font-size: 40px;
+	text-align: center;
+}
+
+span#date
+{
+	color: #FFF;
+	font-size: 22px;
+}
+
+
+
+p#palestranteItemA
+{
+	font-family: Exo;
+	font-size: 26px;
+	color: #0B76B0;
+	line-height: 45px;
+}
+
+p#palestranteItemB
+{
+	font-family: Exo;
+	font-size: 26px;
+	color: #aca5d1;
+	line-height: 45px;
+}
+
+p#publicoAlvoQuem
+{
+	font-family: Exo;
+	font-size: 26px;
+	color: #ffffff;
+	line-height: 60px;
+}
+
+p#certificado
+{
+	font-family: Exo;
+	font-size: 26px;
+	color: #0B76B0;
+	line-height: 45px;
+}
+
+input#ctaB
+{
+	font-family: Exo;
+	color: #0B76B0;
+	width: 350px;
+	height: 35px;
+	border-radius: 5px;
+	border: 8px solid #82b440; /*aca5d1*/
+	font-size: 20px;
+	padding-left: 10px;
+	text-align: center;
+}
+#botaoInscricao:after,
+#botaoInscricao:before{
+	content: '';
+	display: table;
+}
+#botaoInscricao{
+	border: none;
+	background-color: #82b440;
+	color: #FFF;
+	padding: 20px 10px; 
+	margin:20px 0;
+	border-radius: .5em
+}
+
+
+
+img#logotipoSoftblueTopo
+{
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+img#logotipoSoftblueRodape
+{
+	vertical-align: middle;
+}
+
+table#conteudo
+{
+ width: 800px;
+ border-collapse: collapse;
+ border: 10px solid #0B76B0;
+ margin-bottom: 40px;
+}
+
+table#conteudoOff
+{
+ width: 800px;
+ border-collapse: collapse;
+ border: 10px solid #dddddd;
+ margin-bottom: 40px;
+}
+
+table#conteudoOff span#date
+{
+	color: #dddddd;
+	font-size: 22px;
+	text-decoration: line-through;
+}
+
+table#publico
+{
+ width: 900px;
+ border-collapse: collapse;
+}
+
+th
+{
+ background-color: #0B76B0;
+ color: #ffffff;
+ font-weight: bold;
+ text-align: center;
+ padding: 15px;
+ font-family: Exo;
+ font-size: 28px;
+}
+
+table#conteudoOff th
+{
+ background-color: #eeeeee;
+ color: #ffffff;
+ font-weight: bold;
+ text-align: center;
+ padding: 15px;
+ font-family: Exo;
+ font-size: 28px;
+ text-decoration: line-through;
+}
+
+tr
+{
+ background-color: #ffffff;
+}
+
+tr:nth-child(odd)
+{
+ background-color: #aca5d1;
+}
+
+table#conteudoOff tr:nth-child(odd)
+{
+ background-color: #eeeeee;
+}
+
+td
+{
+ padding: 8px;
+}
+
+p#assuntoPrimario
+{
+ font-family: Exo;
+ color: #0B76B0;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+p#assuntoSecundario
+{
+ font-family: Exo;
+ color: #0B76B0;
+ font-size: 16px;
+}
+
+table#conteudoOff p#assuntoPrimario
+{
+ font-family: Exo;
+ color: #dddddd;
+ font-weight: bold;
+ font-size: 20px;
+ text-decoration: line-through;
+}
+
+table#conteudoOff p#assuntoSecundario
+{
+ font-family: Exo;
+ color: #dddddd;
+ font-size: 16px;
+ text-decoration: line-through;
+}
+
+table#conteudoOff td, table#conteudoOff tr
+{
+ border: 1px solid #eeeeee;
+}
+
+td, tr
+{
+ border: 1px solid #aca5d1;
+}
+
+td#publico, tr#publico
+{
+ border: 0px solid #aca5d1;
+}
+
+/* For general iPad layouts */
+@media only screen and (max-device-width: 768px)
+{
+	div#promessa, div#apresentacao, div#comemoracao
+	{ 
+		background-attachment: scroll;
+	}
+	
+	/* Tem um título que tá quebrando linha nos smartphones */
+	p#tituloCorClaraLongo
+	{
+		font-size: 36px;
+	}
+	
+	div#ctaB
+	{ 
+		width: 650px;
+	}
+	
+	p#palestranteItemA
+	{
+		font-size: 24px;
+	}
+	
+	p#palestranteItemB
+	{
+		font-size: 24px;
+	}
+	p#tituloBrancoLongo
+	{
+		font-size: 36px;
+	}
+
+}
+</style>
+
+<!-- Google Analytics 31/08/2015: Novo código do Google Analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-83210224-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+</head>
+<body>
+	<div id="raiz">
+		
+	<div>
+		<img src="./media/sbv2_lp_javaAcademy_empty.png" width="35" height=""><br>
+		<p id="tituloCorEscura">
+			<img src="./media/sbv2_lp_javaAcademy_iconeCheck.png" alt="Ícone de checagem">
+			QUERO APRENDER PHP DE GRAÇA
+		</p>
+		<img src="./media/sbv2_lp_javaAcademy_empty.png" width="20" height=""><br>
+		
+	</div>
+		
+	<div id="apresentacao">
+		<div>
+			
+			<p id="tituloCorClaraLongo">CURSO GRATUITO DE PHP COM CERTIFICADO</p>
+			<div id="player">
+				<iframe width="1024" height="600" src="https://www.youtube.com/embed/xzJs2c8kZxM?autoplay=0&controls=1" frameborder="0" allowfullscreen></iframe>
+				<br><br>
+				<form method="post" action="https://formspree.io/me@doubleweb.com.br" name="formA">
+					<img src="./media/sbv2_lp_javaAcademyArrowLeft.png" style="vertical-align:bottom; margin-right: 20px;">
+					<input id="ctaB" type="email" name="_replyto" id="email"  name="address" placeholder="Insira o seu melhor e-mail...">
+					<img src="./media/sbv2_lp_javaAcademyArrowRight.png" style="vertical-align:bottom; margin-left: 20px;">
+					<br>
+					<input type="submit" id="botaoInscricao" value="QUERO GARANTIR A MINHA VAGA AGORA!">
+					
+				</form>
+			</div>
+			<img src="./media/sbv2_lp_javaAcademy_empty.png" width="20" height=""><br>
+			<img src="./media/sbv2_lp_javaAcademy_empty.png" width="20" height=""><br>
+			<p id="tituloBranco">É GRÁTIS!</p>
+			<img src="./media/sbv2_lp_javaAcademy_empty.png" width="35" height=""><br>
+		</div>
+	</div>
+		
+	<div id="palestrante">
+		<br><img src="./media/sbv2_lp_javaAcademy_empty.png" width="35" height=""><br>
+
+		<figure>
+			<img src="./media/mateus.jpg" alt="Carlos Tosin">
+		</figure>
+
+		<br><img src="./media/sbv2_lp_javaAcademy_empty.png" width="20" height=""><br>
+
+		<p id="tituloCorEscura">Mateus Araújo</p>
+		
+		<br><img src="./media/sbv2_lp_javaAcademy_empty.png" width="10" height="">
+
+		<p id="palestranteItemA"><img src="./media/sbv2_lp_javaAcademy_curriculoA.png" alt="Ícone de checagem"> 8 anos trabalhando com PHP</p>
+		<p id="palestranteItemA"><img src="./media/sbv2_lp_javaAcademy_curriculoA.png" alt="Ícone de checagem"> +120 Sites Desenvolvidos</p>
+		<p id="palestranteItemA"><img src="./media/sbv2_lp_javaAcademy_curriculoA.png" alt="Ícone de checagem"> Conhecimento em diversos Frameworks(Laravel, Zend, Simfony)</p>
+
+		<img src="./media/sbv2_lp_javaAcademy_empty.png" width="35" height=""><br>
+	</div>
+
+	<div id="promessa">
+		<p id="tituloBranco">SEJA UM PROGRAMADOR RECONHECIDO, BUSQUE SEMPRE A PERFEIÇÃO!</p>
+	</div>
+
+	<div id="certificado">
+		<br><br>
+		<p id="tituloCorEscura">CURSO GRATUITO DE PHP COM CERTIFICADO!</p>
+		<br><br>
+	</div>
+
+</div>
+
+
+
+
+</body>
+</html>
