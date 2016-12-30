@@ -1,0 +1,532 @@
+body,
+html {
+    color: #fff;
+    font-size: 14px
+}
+.rowspace {
+    margin-top: 4rem
+}
+a.button {
+    font-weight: 700;
+    margin-top: 5rem;
+    line-height: 35px;
+    border: 2px solid #02baab;
+    color: #02baab;
+    padding: 5px 20px;
+    -webkit-transition: all ease-in-out .4s;
+    transition: all ease-in-out .4s
+}
+a.button:hover {
+    background-color: #02baab;
+    color: #fff
+}
+.secao {
+    text-align: center;
+    padding: 4em 2em
+}
+@media screen and (min-width: 1024px) {
+    .secao {
+        padding: 6em
+    }
+}
+.secao h1 {
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: 400;
+    position: relative
+}
+.features h2,
+.header h1,
+.quotes p,
+.secao p {
+    font-weight: 300
+}
+.secao h1:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    top: 45px;
+    left: 48%;
+    display: inline-block;
+    height: 5px;
+    width: 50px
+}
+.secao p {
+    margin: 50px 0;
+    font-size: 18px;
+    line-height: 30px
+}
+.header {
+    background: #000;
+    min-width: 100%
+}
+.header h1 {
+    font-size: 35px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center
+}
+.header .search {
+    padding: 10px 20px;
+    height: 30px;
+    background: 0 0;
+    border: 1px solid #ccc
+}
+section.slider,
+section.works,
+section.works .job a {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply
+}
+.header .login {
+    padding: 1em 0
+}
+.header .login li {
+    margin-left: 10px
+}
+.header .login li i {
+    margin-right: 10px
+}
+.header .login li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 12px
+}
+.header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%
+}
+.header .menu li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s
+}
+.header .menu li a {
+    color: #FFF
+}
+.header .menu li:nth-child(1) {
+    border-top: 10px solid #ffae00
+}
+.header .menu li:nth-child(1):hover {
+    background-color: #ffae00
+}
+.header .menu li:nth-child(2) {
+    border-top: 10px solid #fc7100
+}
+.header .menu li:nth-child(2):hover {
+    background-color: #fc7100
+}
+.header .menu li:nth-child(3) {
+    border-top: 10px solid #e51c5e
+}
+.header .menu li:nth-child(3):hover {
+    background-color: #e51c5e
+}
+.header .menu li:nth-child(4) {
+    border-top: 10px solid #ae0f8d
+}
+.header .menu li:nth-child(4):hover {
+    background-color: #ae0f8d
+}
+.header .menu li:nth-child(5) {
+    border-top: 10px solid #6d0fae
+}
+.header .menu li:nth-child(5):hover {
+    background-color: #6d0fae
+}
+.header .menu li:nth-child(6) {
+    border-top: 10px solid #33227a
+}
+.header .menu li:nth-child(6):hover {
+    background-color: #33227a
+}
+.header .menu li:nth-child(7) {
+    border-top: 10px solid #0c8fcc
+}
+.header .menu li:nth-child(7):hover {
+    background-color: #0c8fcc
+}
+section.slider {
+    height: -webkit-calc(100vh - 120px);
+    height: calc(100vh - 120px);
+    background-image: url(../images/slide1.jpg);
+    background-color: gray;
+    position: relative;
+    display: table;
+    width: 100%
+}
+section.slider .content {
+    display: table-cell;
+    vertical-align: middle;
+    height: 85vh;
+    text-align: center
+}
+section.slider .content h1 {
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center
+}
+section.slider .content h1 span {
+    color: #02baab
+}
+section.slider .content a {
+    display: inline-block;
+    font-size: 12px
+}
+section.slider .content .bullets {
+    position: absolute;
+    bottom: 0;
+    left: 50%
+}
+section.slider .content .bullets li {
+    height: 3px;
+    width: 20px;
+    margin: 0 5px;
+    background-color: #FFF;
+    display: inline-block
+}
+section.slider .content .bullets li.active {
+    background-color: #02baab
+}
+section.steal .secao {
+    color: #3b4954
+}
+section.steal .secao h1:after {
+    background-color: #eee
+}
+section.steal .secao a {
+    padding: 10px
+}
+section.works {
+    background-image: url(../images/slide2.jpg);
+    background-color: gray;
+    padding-bottom: 6em
+}
+section.works .selectors {
+    width: 100%;
+    text-align: center
+}
+section.works .selectors a.next,
+section.works .selectors a.prev {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 3em;
+    margin-right: 30px;
+    -webkit-transition: all ease-in-out .2s;
+    transition: all ease-in-out .2s
+}
+section.works .selectors a.next:hover,
+section.works .selectors a.prev:hover {
+    color: #02baab
+}
+section.works .secao h1:after {
+    background-color: #FFF
+}
+section.works .job {
+    margin-top: 2em
+}
+section.works .job a {
+    display: block;
+    color: #FFF;
+    width: 100%;
+    height: 290px;
+    position: relative;
+    background-color: gray
+}
+section.works .job a span {
+    position: absolute;
+    bottom: 0;
+    padding: 1em;
+    background: #3d3d3d;
+    height: 70px;
+    width: 100%;
+    display: block
+}
+section.works .job a span h4 {
+    font-size: 14px;
+    line-height: 24px
+}
+section.works .job a span h4 i {
+    float: right
+}
+section.works .job a span h5 {
+    font-size: 11px;
+    line-height: 20px;
+    color: #02baab
+}
+section.works .job a span h5 i {
+    display: block;
+    float: right
+}
+section.works .job .active {
+    padding-top: 4em;
+    border: 1px solid #fff
+}
+section.works .job .active div {
+    margin: 1em auto;
+    display: block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #02baab;
+    text-align: center;
+    padding: .6em
+}
+section.works .job .job1 {
+    background-image: url(../images/work1.jpg)
+}
+section.works .job .job2 {
+    background-image: url(../images/work2.jpg)
+}
+section.works .job .job3 {
+    background-image: url(../images/work3.jpg)
+}
+.wordpress {
+    background-color: #02baab
+}
+.wordpress .secao {
+    padding: 3em 0 5em
+}
+.wordpress h2 {
+    font-size: 1.8em;
+    text-align: left;
+    float: left
+}
+.wordpress a.button {
+    color: #fff;
+    border: 2px solid #FFF;
+    float: right;
+    margin-top: 0;
+    line-height: 1
+}
+@media screen and (min-width: 750px) {
+    .wordpress h2 {
+        font-size: 2em
+    }
+    .wordpress a.button {
+        padding: 10px 15px
+    }
+}
+.blog,
+.features {
+    padding-bottom: 6em
+}
+.features {
+    color: #3b4954
+}
+.features i,
+.quotes h1,
+.quotes h4 {
+    color: #02baab
+}
+.features .secao h1:after {
+    background-color: #eee
+}
+.features h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 1rem
+}
+.features p {
+    font-size: 14px;
+    line-height: 24px
+}
+.quotes {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: gray;
+    background-image: url(../images/slide3.jpg);
+    position: relative
+}
+.quotes p {
+    font-size: 24px;
+    line-height: 30px
+}
+.quotes h4 {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px
+}
+.quotes .bullets {
+    position: absolute;
+    bottom: 50px;
+    left: 47%
+}
+.quotes .bullets li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #FFF;
+    display: inline-block
+}
+.quotes .bullets li.active {
+    background-color: #02baab
+}
+.blog h1:after,
+section.team h1:after {
+    background-color: #eee
+}
+.blog h1 {
+    color: #3b4954
+}
+.blog .blogpost h2 {
+    color: #02baab;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 30px 0
+}
+.blog .blogpost p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #3b4954
+}
+.blog .blogpost .links {
+    padding: 2rem 0;
+    border-bottom: 1px solid #c3c3c3
+}
+.blog .blogpost .links h2,
+.blog .blogpost .links span {
+    color: #3b4954
+}
+.blog .blogpost .links a,
+.blog .blogpost .links i {
+    color: #02baab
+}
+.blog .blogpost .links span {
+    float: right
+}
+.blog .destaque .links span,
+.blog .destaque h2 span {
+    color: #3b4954
+}
+.blog .destaque .links a,
+.blog .destaque .links i,
+.blog .destaque h2 a,
+.blog .destaque h2 i {
+    color: #6d0fae
+}
+section.team {
+    padding-bottom: 6em
+}
+section.team h1 {
+    color: #3b4954
+}
+section.team .member {
+    position: relative;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-bottom: 1rem
+}
+section.team .member .name {
+    position: absolute;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    right: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #ccc
+}
+section.team .member .name h3 {
+    color: #02baab;
+    font-size: 14px;
+    line-height: 18px
+}
+section.team .member .name h4 {
+    color: #c4c4c4;
+    font-size: 12px;
+    line-height: 18px
+}
+section.team .member p {
+    color: #3b4954;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 4rem 1rem 1rem
+}
+footer.footer {
+    background-color: #1f2a32;
+    color: #fff;
+    padding-bottom: 6em
+}
+footer.footer .rowspace {
+    margin-top: 1rem
+}
+footer.footer .purple {
+    border-top: 15px solid #7827a9
+}
+footer.footer .purple p {
+    color: #999
+}
+footer.footer .purple p span {
+    color: #fff
+}
+footer.footer .blue {
+    border-top: 15px solid #0c8fcc
+}
+footer.footer .blue a,
+footer.footer .blue span {
+    color: #02baab
+}
+footer.footer .blue h4 {
+    color: #3b4954
+}
+footer.footer .pink {
+    border-top: 15px solid #de1c5c
+}
+footer.footer .pink i {
+    color: #FFF
+}
+footer.footer .yellow p,
+footer.footer i {
+    color: #02baab
+}
+footer.footer .pink .fa {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px
+}
+footer.footer .pink .fa-facebook {
+    background-color: #3b5998
+}
+footer.footer .pink .fa-twitter {
+    background-color: #00a0d1
+}
+footer.footer .pink .fa-youtube {
+    background-color: #c4302b
+}
+footer.footer .pink .fa-instagram {
+    background-color: #825c48
+}
+footer.footer .pink .fa-pinterest-p {
+    background-color: #a30834
+}
+footer.footer .yellow {
+    border-top: 15px solid #ffae00
+}
+footer.footer .yellow h3 {
+    line-height: 32px
+}
+footer.footer h1 {
+    font-size: 2em;
+    padding: 3rem 0;
+    font-weight: 300
+}
